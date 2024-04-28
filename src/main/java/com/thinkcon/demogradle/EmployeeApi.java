@@ -11,7 +11,7 @@ public class EmployeeApi {
 
     @GetMapping("/{empId}")
     public String getEmployee(@PathVariable String empId){
-        return "Employee Found: " + empId;
+        return "Employee " + empId + " was found!";
     }
 
 }
